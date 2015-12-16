@@ -689,7 +689,7 @@ Features-stack
         position: absolute;
         width: 916px;
         height: 540px;
-        background: url("../img/macbook-pro.png") no-repeat center center;
+        /*background: url("../img/macbook-pro.png") no-repeat center center;*/
         top: 114px;
         z-index: 4;
         left: 50%;
