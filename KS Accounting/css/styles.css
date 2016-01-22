@@ -645,11 +645,11 @@ Features-stack
     .features .ipad-wrap {
         width: 706px;
         height: 1002px;
-        background: url("../img/ipad-device.png") no-repeat center center;
+        background: url("../img/StockPhoto.png") no-repeat center center;
         z-index: 1;
     }
 
-    .features .iphone-wrap {
+    /*.features .iphone-wrap {
         width: 304px;
         height: 620px;
         background: url("../img/iphone6.png") no-repeat center center;
@@ -657,12 +657,12 @@ Features-stack
         left: 530px;
         bottom: 129px;
         z-index: 2;
-    }
+    }*/
 
     .features .device-showcase {
         position: absolute;
-        bottom: -365px;
-        right: 61%;
+        bottom: -265px;
+        right: 50%;
     }
 
     .features .responsive-feature-img, .features-extra .responsive-feature-img {
