@@ -1597,3 +1597,18 @@ Swag
         color: #fff;
         background: rgba(61, 201, 179, 1);
     }
+
+.custom-bullet li {
+    display: block;
+}
+
+    .custom-bullet li:before {
+        /*Using a Bootstrap glyphicon as the bullet point*/
+        content: "\f111 ";
+        font-family: 'FontAwesome';
+        font-size: 9px;
+        float: left;
+        margin-top: 4px;
+        margin-left: -17px;
+        color: #CCCCCC;
+    }
