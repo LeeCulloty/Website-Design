@@ -1600,6 +1600,8 @@ Swag
 
 .custom-bullet li {
     display: block;
+        font-size: 15px;
+    line-height: 20px;
 }
 
     .custom-bullet li:before {
