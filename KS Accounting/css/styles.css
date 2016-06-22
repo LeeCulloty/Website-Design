@@ -6,9 +6,9 @@ Typography
 ========================================================================== */
 p {
     font-size: 15px;
-    line-height: 29px;
+    /*line-height: 29px;*/
     color: rgba(28, 54, 83, 0.6);
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
 }
 
 h1 {
@@ -24,7 +24,7 @@ h2 {
 h3 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #3D4351;
+    margin-left color: #3D4351;
 }
 
 h4 {
@@ -458,6 +458,13 @@ Hero
         margin-bottom: 80px;
     }
 
+    .hero p.itallic {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 300;
+        font-style: italic;
+    }
+
     .hero .hero-content {
         padding-top: 26%;
     }
@@ -499,6 +506,18 @@ header {
 
     header .logo {
         display: inline-block;
+    }
+
+    header .nav-contact {
+        position: absolute;
+        height: 26px;
+        right: 10px;
+        top: 48px;
+        /*visibility: hidden;*/
+        color: #fff;
+        -webkit-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out;
+        font-size: 15px;
     }
 
     header ul.primary-nav {
@@ -690,7 +709,7 @@ Features-stack
         width: 916px;
         height: 540px;
         /*background: url("../img/macbook-pro.png") no-repeat center center;*/
-        top: 114px;
+        top: 75px;
         z-index: 4;
         left: 50%;
     }
@@ -1600,11 +1619,11 @@ Swag
 
 .custom-bullet li {
     display: block;
-        font-size: 15px;
+    font-size: 15px;
     line-height: 20px;
 }
 
-    .custom-bullet li:before {
+    .custom-bullet li.first:before {
         /*Using a Bootstrap glyphicon as the bullet point*/
         content: "\f111 ";
         font-family: 'FontAwesome';
@@ -1612,5 +1631,38 @@ Swag
         float: left;
         margin-top: 4px;
         margin-left: -17px;
-        color: #CCCCCC;
+        color: #F15922;
+    }
+
+    .custom-bullet li.second:before {
+        /*Using a Bootstrap glyphicon as the bullet point*/
+        content: "\f111 ";
+        font-family: 'FontAwesome';
+        font-size: 9px;
+        float: left;
+        margin-top: 4px;
+        margin-left: -17px;
+        color: #FDB813;
+    }
+
+    .custom-bullet li.third:before {
+        /*Using a Bootstrap glyphicon as the bullet point*/
+        content: "\f111 ";
+        font-family: 'FontAwesome';
+        font-size: 9px;
+        float: left;
+        margin-top: 4px;
+        margin-left: -17px;
+        color: #13A89E;
+    }
+
+    .custom-bullet li.fourth:before {
+        /*Using a Bootstrap glyphicon as the bullet point*/
+        content: "\f111 ";
+        font-family: 'FontAwesome';
+        font-size: 9px;
+        float: left;
+        margin-top: 4px;
+        margin-left: -17px;
+        color: #4B4B4D;
     }
