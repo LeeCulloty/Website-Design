@@ -517,7 +517,8 @@ header {
         color: #fff;
         -webkit-transition: all 300ms ease-in-out;
         transition: all 300ms ease-in-out;
-        font-size: 15px;
+        font-size: 15px;        
+        margin-top: 50px;
     }
 
     header ul.primary-nav {
