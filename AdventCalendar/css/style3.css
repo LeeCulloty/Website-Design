@@ -42,7 +42,7 @@ a:focus {
 
 .cube:not(.cube--inactive):nth-child(2n) .cube__side,
 .no-js .cube:not(.cube--inactive):nth-child(2n) {
-	background-image: url(../img/c2.png);
+	background-image: url(../img/c6.png);
 }
 
 .cube:not(.cube--inactive):nth-child(3n) .cube__side,
